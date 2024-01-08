@@ -1,5 +1,7 @@
 # A Node.js REST API with Express and PostgreSQL
 
+By Robson Niemeyer.
+
 ## Dependencies
 
 - axios
@@ -11,24 +13,24 @@
 
 ```bash
 .
-├── compose.yaml
 ├── data
 │   └── postsData.js
-├── Dockerfile
+├── infra
+│   └── database.js
+├── route
+│   └── postsRoute.js
+├── service
+│   └── postsService.js
+├── test
+│   └── posts.test.js
 ├── .dockerignore
 ├── .env
 ├── .gitignore
-├── infra
-│   └── database.js
-├── init.sql
-├── package.json
-├── package-lock.json
+├── Dockerfile
 ├── README.md
-├── route
-│   └── postsRoute.js
-├── server.js
-├── service
-│   └── postsService.js
-└── test
-    └── posts.test.js
+├── compose.yaml
+├── init.sql
+├── package-lock.json
+├── package.json
+└── server.js
 ```
