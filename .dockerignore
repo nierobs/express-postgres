@@ -1,7 +1,9 @@
 .git/
 node_modules/
 scripts/
+.env
 .gitignore
 Dockerfile
 README.md
 compose.yaml
+init.sql
