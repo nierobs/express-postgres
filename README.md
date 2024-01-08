@@ -1,6 +1,7 @@
 # A Node.js REST API with Express and PostgreSQL
 
-By Robson Niemeyer.
+Robson Niemeyer  
+[https://github.com/nierobs/express-postgres](https://github.com/nierobs/express-postgres)
 
 ## Dependencies
 
