@@ -2,7 +2,7 @@
 
 const pgp = require('pg-promise')()
 
-const connectionString = process.env.DB_URL || 'postgres://root:123456@localhost:5432/blog'
+const connectionString = process.env.DB_URL || 'postgres://admin:123456@localhost:5432/postgres'
 
 const db = pgp({ connectionString })
 
