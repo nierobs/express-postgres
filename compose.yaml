@@ -34,9 +34,9 @@ services:
       - net
     healthcheck:
       test: pg_isready -d ${DB_URL}
-      interval: 10s
+      interval: 1s
       timeout: 5s
-      retries: 5
+      retries: 10
 
 networks:
   net:
