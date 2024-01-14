@@ -13,16 +13,16 @@
 ## Directory structure
 
 ```bash
-./
-├── data/
+.
+├── data
 │   └── postsData.js
-├── infra/
+├── infra
 │   └── database.js
-├── route/
+├── route
 │   └── postsRoute.js
-├── service/
+├── service
 │   └── postsService.js
-├── test/
+├── test
 │   └── posts.test.js
 ├── .dockerignore
 ├── .env

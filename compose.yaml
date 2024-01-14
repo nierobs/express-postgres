@@ -4,6 +4,8 @@ services:
   api:
     build: .
     restart: unless-stopped
+    volumes:
+      - .:/usr/src/app
     env_file: .env
     environment:
       NODE_ENV: ${NODE_ENV}
